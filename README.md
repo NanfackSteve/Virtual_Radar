@@ -14,4 +14,5 @@ Plot aerodromes from a file containing the list of aerodromes of Germany and the
 
 ### How to use
 
+Open <strong><em>P9.cbp</em></strong> file with CodeBlocks <br/>
 Compile/Run <em>VR_Control.c</em> file
