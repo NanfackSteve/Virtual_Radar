@@ -1,6 +1,6 @@
-# Virtual_Radar using MVC pattern
+# Virtual Radar using MVC pattern
 
-Draw Airfield 
+Plot aerodromes from a file containing the list of aerodromes of Germany and their position (latitude/longitude)
 
 <img src="./airfields.png" alt="GNU/Linux" width="400" height="280"/>
 
