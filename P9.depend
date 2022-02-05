@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1624551405 source:d:\docs\german\p9\vr_control.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<graphics.h>
+	"GEO_Position.h"
+	"VR_Model.h"
+	"VR_View.h"
+
+1624551505 d:\docs\german\p9\vr_model.h
+	"GEO_Position.h"
+
+1624549020 d:\docs\german\p9\geo_position.h
+
+1624551229 d:\docs\german\p9\vr_view.h
+	"VR_Model.h"
+
+1624551405 source:d:\docs\german\p9\geo_position.c
+	<math.h>
+	"GEO_Position.h"
+
+1624551505 source:d:\docs\german\p9\vr_model.c
+	<stdio.h>
+	<string.h>
+	"VR_Model.h"
+
+1624551505 source:d:\docs\german\p9\vr_view.c
+	<stdlib.h>
+	<graphics.h>
+	<stdio.h>
+	"VR_View.h"
+	"VR_Model.h"
+	"GEO_Position.h"
+
+1644034193 source:d:\docs\german\radarvirtuel\p9\geo_position.c
+	<math.h>
+	"GEO_Position.h"
+
+1644034208 d:\docs\german\radarvirtuel\p9\geo_position.h
+
+1644040218 source:d:\docs\german\radarvirtuel\p9\vr_control.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<graphics.h>
+	"GEO_Position.h"
+	"VR_Model.h"
+	"VR_View.h"
+
+1644037682 d:\docs\german\radarvirtuel\p9\vr_model.h
+	"GEO_Position.h"
+
+1644039976 d:\docs\german\radarvirtuel\p9\vr_view.h
+	"VR_Model.h"
+
+1644037718 source:d:\docs\german\radarvirtuel\p9\vr_model.c
+	<stdio.h>
+	<string.h>
+	"VR_Model.h"
+
+1644040075 source:d:\docs\german\radarvirtuel\p9\vr_view.c
+	<stdlib.h>
+	<graphics.h>
+	<stdio.h>
+	"VR_View.h"
+	"VR_Model.h"
+	"GEO_Position.h"
+

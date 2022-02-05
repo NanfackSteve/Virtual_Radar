@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="P9" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/P9" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/P9" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-Wno-write-strings" />
+			<Add option="-x c++" />
+			<Add option="-std=c++98" />
+			<Add option="-pedantic" />
+			<Add directory="$(CODEBLOCKS)/sdk/winbgim/include" />
+		</Compiler>
+		<Linker>
+			<Add library="bgi" />
+			<Add library="gdi32" />
+			<Add library="comdlg32" />
+			<Add library="uuid" />
+			<Add library="oleaut32" />
+			<Add library="ole32" />
+			<Add directory="$(CODEBLOCKS)/sdk/winbgim/lib" />
+		</Linker>
+		<Unit filename="GEO_Position.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GEO_Position.h" />
+		<Unit filename="VR_Control.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="VR_Model.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="VR_Model.h" />
+		<Unit filename="VR_View.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="VR_View.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
