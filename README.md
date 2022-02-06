@@ -1,4 +1,4 @@
-# Virtual Radar using MVC pattern
+# Virtual Radar using MVC pattern :satellite:
 
 Plot aerodromes from a file containing the list of aerodromes of Germany and their position (latitude/length)
 
